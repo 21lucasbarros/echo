@@ -7,7 +7,8 @@ export default function Header() {
             ECHO
           </h1>
         </div>
-        <div className="flex items-center">
+        {/* Menu só aparece em telas médias para cima */}
+        <div className="hidden md:flex items-center">
           <ul className="gap-5 flex-row flex text-[var(--color-cinza-carvao)] font-[family-name:var(--font-inter)] text-sm font-medium">
             <li>
               <a href="#">MANIFESTO</a>
