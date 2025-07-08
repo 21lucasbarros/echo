@@ -2,7 +2,7 @@ import { Volume2 } from "lucide-react";
 
 export default function Hero() {
   return (
-    <main className="p-4 flex flex-row items-center justify-between w-full">
+    <main className="p-10 flex flex-row items-center justify-between w-full">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
           <div className="space-y-8">
