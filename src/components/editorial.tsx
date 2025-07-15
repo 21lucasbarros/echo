@@ -39,7 +39,7 @@ export default function Editorial() {
   return (
     <section id="editorial" className="py-20 px-6">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <div className="grid grid-cols-1 gap-16">
           <div>
             <h2 className="text-4xl lg:text-6xl font-bold mb-8">EDITORIAL</h2>
             <div className="space-y-8">
@@ -55,18 +55,13 @@ export default function Editorial() {
               ))}
             </div>
           </div>
-
-          <div className="space-y-6">
-            <div className="aspect-[4/3] bg-neutral-900" />
-            <div className="aspect-square bg-amber-100" />
-          </div>
         </div>
         <a
           href="#"
           className="inline-block mt-5 text-lg font-medium text-zinc-800 hover:underline transition-colors"
-          aria-label="Ver todos os artigos"
+          aria-label="Ver todos os editoriais"
         >
-          Ver todos os artigos
+          Ver todos os editoriais
         </a>
       </div>
     </section>
